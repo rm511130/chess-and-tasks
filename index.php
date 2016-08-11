@@ -28,5 +28,5 @@ innerHTML="\xa0\u265f\u265a\u265e\u265d\u265c\u265b  \u2659\u2654\u2658\u2657\u2
 q.style.borderColor=p==B?"red":"#dde";}}W();
 function Y(s){i=(I[s]^y)&z;if(i>8){b=s;W();}else if(B&&i<9){b=s;i=I[B]&z;if((i&
 7)==1&(b<29|b>90))i=14-document.getElementById("t").selectedIndex^y;X(0,0,0,21,
-u,1);if(y)setTimeout("X(0,0,0,21,u,5/*ply*/),X(0,0,0,21,u,1)",250);}}
+u,1);if(y)setTimeout("X(0,0,0,21,u,2/*ply*/),X(0,0,0,21,u,1)",250);}}
 </script>

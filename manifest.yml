@@ -1,5 +1,4 @@
 name: chess
-random-route: true
 memory: 100M
 env:
  CF_STAGING_TIMEOUT: 15

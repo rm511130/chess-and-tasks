@@ -3,6 +3,3 @@ applications:
 - name: chess
   memory: 100M
   random-route: true
-  env:
-   CF_STAGING_TIMEOUT: 15
-   CF_STARTUP_TIMEOUT: 15

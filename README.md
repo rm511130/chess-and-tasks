@@ -35,7 +35,7 @@ or
 See: https://github.com/rm511130/docker-chess and https://hub.docker.com/r/rmeira/chess
 
 ```
-$ cf delete chess.    # to delete the chess app (in case you had it running)
+$ cf delete chess    # to delete the chess app (in case you had it running)
 $ cf push chess --docker-image  rmeira/chess
 ```
 

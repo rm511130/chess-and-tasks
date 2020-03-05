@@ -1,6 +1,8 @@
 # Chess
 Chess is a tiny client-side javascript chess game based on the program that won an International Obfuscated C Code Contest
 
+![](./chess.jpg)
+
 ## Run Chess Locally on your Mac
 
 ```
@@ -27,3 +29,15 @@ You can also execute a task using the following examples/commands:
 or
 
 ````$ cf run-task chess "echo Hello World" --name hello_world_task````
+
+## There's also a Docker Image of Chess
+
+See: https://github.com/rm511130/docker-chess and https://hub.docker.com/r/rmeira/chess
+
+```
+$ cf delete chess.    # to delete the chess app (in case you had it running)
+$ cf push chess --docker-image  rmeira/chess
+```
+
+
+
